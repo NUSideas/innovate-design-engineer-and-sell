@@ -1,0 +1,397 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navheader {
+  width: 100%;
+  margin: 0;
+  color: white;
+  overflow-x: auto;
+  
+}
+
+.header {
+  text-align: center;
+  color: white;
+  background-size: 120%;
+  padding-bottom: 300px;
+  background-image: url("https://images.unsplash.com/photo-1466970776942-a22ecb079a3e?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  float: right;
+}
+
+nav li {
+  margin: 0;
+  float: left;
+}
+
+.navheader h1 {
+  margin: 0;
+  padding: 10px 20px;
+  display: inline-block;
+  float: left;
+}
+
+a {
+  padding: 20px 20px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.mainheader h1 {
+  padding-bottom: 30px;
+  font-weight: lighter; 
+}
+
+.mainheader a {
+  padding: 10px 20px;
+  border: 1px solid white;
+  font-size: 1.5em;
+}
+
+.mainheader {
+  background: rgba(0,178,255,0.65);
+  padding: 30px;
+ }
+
+
+.aspects {
+  background: white;
+  margin: 0;
+}
+
+.aspects ul {
+  list-style: none;
+  margin: 0;
+}
+
+.aspects h3 {
+  text-align: center;
+  color: rgb(150,150,150);
+}
+
+.aspects p {
+  text-align: center;
+  line-height: 1.8;
+}
+
+.aspects li {
+  width: 310px;
+  display: inline-block;
+  vertical-align: top;
+  color: rgb(150,150,150);
+}
+
+.aspects img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.videosection {
+	background: rgb(240,240,240);
+}
+
+.videosection ul {
+  list-style: none;
+  text-align: center;
+}
+
+.videosection a {
+  font-size: 2em;
+  color: white;
+  padding: 10px 20px;
+  background: rgb(75,199,255);
+  border: 2px solid rgb(75,199,255);
+ }
+
+ .comptimeline h1 {
+ 	text-align: center;
+ 	color: rgb(180,180,180);
+ 	font-weight: lighter;
+ }
+
+ section#timeline {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+}
+section#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -1px;
+  width: 2px;
+  height: 100%;
+  background: rgb(240,240,240);
+}
+section#timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+section#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+
+}
+section#timeline article div.inner {
+  width: 40%;
+  float: left;
+  margin: 5px 0 0 0;
+  border-radius: 6px;
+
+}
+section#timeline article div.inner span.date {
+  display: block;
+  width: 60px;
+  height: 50px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: rgb(75,199,255);
+  color: white;
+
+}
+section#timeline article div.inner span.date span {
+  display: block;
+  text-align: center;
+}
+section#timeline article div.inner span.date span.day {
+  font-size: 10px;
+}
+section#timeline article div.inner span.date span.month {
+  font-size: 18px;
+}
+section#timeline article div.inner span.date span.year {
+  font-size: 10px;
+}
+section#timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+section#timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  	width: 10px; 
+	  height: 10px;
+  -webkit-transform: rotate(-45deg);
+ 
+}
+section#timeline article div.inner p {
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  background: rgb(240,240,240);
+  color: #656565;
+  border-radius: 0 0 6px 6px;
+  line-height: 1.4;
+  
+}
+section#timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+section#timeline article:nth-child(2n+2) div.inner h2:after {
+  left: -5px;
+}
+section#timeline article:nth-child(1) div.inner h2 {
+  background: rgb(75,199,255);
+}
+section#timeline article:nth-child(1) div.inner h2:after {
+  background: rgb(75,199,255);
+}
+section#timeline article:nth-child(2) div.inner h2 {
+  background: rgb(75,199,255);
+}
+section#timeline article:nth-child(2) div.inner h2:after {
+  background: rgb(75,199,255);
+}
+section#timeline article:nth-child(3) div.inner h2 {
+  background: rgb(75,199,255);
+}
+section#timeline article:nth-child(3) div.inner h2:after {
+  background: rgb(75,199,255);
+}
+section#timeline article:nth-child(4) div.inner h2 {
+  background: rgb(75,199,255);
+}
+section#timeline article:nth-child(4) div.inner h2:after {
+  background: rgb(75,199,255);
+}
+section#timeline article:nth-child(5) div.inner h2 {
+  background: rgb(75,199,255);
+}
+section#timeline article:nth-child(5) div.inner h2:after {
+  background: rgb(75,199,255);
+}
+
+section#timeline article:nth-child(6) div.inner h2 {
+  background: rgb(75,199,255);
+}
+section#timeline article:nth-child(6) div.inner h2:after {
+  background: rgb(75,199,255);
+}
+
+.prizes {
+	background: rgb(240,240,240);
+}
+
+.prizes h1 {
+ 	text-align: center;
+ 	color: rgb(100,100,100);
+ 	font-weight: lighter;
+ }
+
+ .prizes h3 {
+ 	text-align: center;
+ 	color: white;
+ 	font-weight: lighter;
+ }
+
+ .prizes ul h2 {
+ 	color: white;
+ 	font-weight: lighter;
+ }
+
+ .prizes ul {
+ 	list-style: none;
+ 	text-align: center;
+ 	display: block;
+ 	color: white;
+ }
+
+ .prizes li {
+ 	border-radius: 25px;
+ 	background-color: rgb(75,199,255);
+ 	display: inline-block;
+ 	width: 250px;
+    height: 150px;
+    overflow: hidden;   
+    margin: 0 75px; 
+    color: white;
+ }
+
+.organisersandsponsors {
+ 	background: white;
+ 	margin: 0;
+ }
+
+.organisersandsponsors h3 {
+  text-align: center;
+  color: rgb(140,140,140);
+}
+
+.organisersandsponsors ul {
+  list-style: none;
+  text-align: center;
+}
+
+.organisers img {
+ 	height: 40px;
+ 	width: auto;
+	overflow: hidden;
+	text-align: center;	
+	padding: 20px 20px; 
+ } 
+
+.sponsors img {
+ 	height: 60px;
+ 	width: auto;
+	overflow: hidden;
+	text-align: center;	
+	padding: 20px 20px; 
+ } 
+
+.organisers {
+  width: 50%;
+  display: inline;
+  float: left;
+  margin: 0 auto;
+  font-weight: lighter;
+}
+
+.sponsors {
+  width: 50%;
+  display: inline; 
+  float: right;
+  margin: 0 auto;
+  color: rgb(140,140,140);
+  text-align: center;
+  font-weight: lighter;
+}
+
+.contactus {
+ 	background: rgb(75,199,255);
+ 	text-align: center;
+ 	color: white;
+ 	margin: 0 auto;
+ }
+ 
+.contactus p {
+ 	text-align: center;
+ 	color: white;
+ 	padding: 0;
+ 	margin: 0 auto;
+ }
+
+.contactus a {
+	font-size: 2em;
+	color: white;
+	padding: 10px 20px;
+	border: 2px solid white;
+}
+
+.socialmedia a {
+	border: none;
+	text-align: center;
+}
+
+.socialmedia img {
+	height: 20px;
+	width: auto;
+}
+
